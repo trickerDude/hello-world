@@ -1,0 +1,8 @@
+applications:
+- name: tricker-hw-php
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: tricker-hw-php.cfapps.io
+  stack: cflinuxfs2
